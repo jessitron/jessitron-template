@@ -4,7 +4,7 @@ A Leiningen template for projects with property based tests.
 
 ## Usage
 
-lein new jessitron <new-project-name>
+lein new jessitron new-project-name
 
 ## License
 
