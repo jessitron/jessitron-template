@@ -10,7 +10,7 @@
   (let [data {:name name
               :sanitized (sanitize name)
               :year (year)}]
-    (main/info "Generating fresh 'lein new' project with test.check and schema.")
+    (main/info "Generating fresh project with test.check and schema.")
     (->files data
              ["src/{{sanitized}}/core.clj" (render "core.clj" data)]
              ["project.clj" (render "project.clj" data)]
